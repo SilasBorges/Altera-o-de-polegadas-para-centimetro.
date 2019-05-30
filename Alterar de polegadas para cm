@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    float polegada, cent;
+    printf("Conversor de polegadas para centimentros\n");
+    printf("\nDigite um valor de comprimento em polegada:\n");
+    scanf("%f", &polegada);
+
+    cent = polegada * 2.54;
+
+    printf("O valor em centrimetro eh:\n %f", cent);
+
+    return 0;
+}
